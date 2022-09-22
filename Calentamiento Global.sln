@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.3.32825.248
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31829.152
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lucky Tickets", "Lucky Tickets\Lucky Tickets.vcxproj", "{17E330BD-4FC1-4621-8AC8-AF80E91CD212}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Number of non-zero bits", "Circular shift\Circular shift.vcxproj", "{1015D1A0-742F-43FC-B529-8B725DDCB9E4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Array reversing", "Array reversing\Array reversing.vcxproj", "{69807B1C-B58E-4710-A9B9-50F8668A2480}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,22 @@ Global
 		{17E330BD-4FC1-4621-8AC8-AF80E91CD212}.Release|x64.Build.0 = Release|x64
 		{17E330BD-4FC1-4621-8AC8-AF80E91CD212}.Release|x86.ActiveCfg = Release|Win32
 		{17E330BD-4FC1-4621-8AC8-AF80E91CD212}.Release|x86.Build.0 = Release|Win32
+		{1015D1A0-742F-43FC-B529-8B725DDCB9E4}.Debug|x64.ActiveCfg = Debug|x64
+		{1015D1A0-742F-43FC-B529-8B725DDCB9E4}.Debug|x64.Build.0 = Debug|x64
+		{1015D1A0-742F-43FC-B529-8B725DDCB9E4}.Debug|x86.ActiveCfg = Debug|Win32
+		{1015D1A0-742F-43FC-B529-8B725DDCB9E4}.Debug|x86.Build.0 = Debug|Win32
+		{1015D1A0-742F-43FC-B529-8B725DDCB9E4}.Release|x64.ActiveCfg = Release|x64
+		{1015D1A0-742F-43FC-B529-8B725DDCB9E4}.Release|x64.Build.0 = Release|x64
+		{1015D1A0-742F-43FC-B529-8B725DDCB9E4}.Release|x86.ActiveCfg = Release|Win32
+		{1015D1A0-742F-43FC-B529-8B725DDCB9E4}.Release|x86.Build.0 = Release|Win32
+		{69807B1C-B58E-4710-A9B9-50F8668A2480}.Debug|x64.ActiveCfg = Debug|x64
+		{69807B1C-B58E-4710-A9B9-50F8668A2480}.Debug|x64.Build.0 = Debug|x64
+		{69807B1C-B58E-4710-A9B9-50F8668A2480}.Debug|x86.ActiveCfg = Debug|Win32
+		{69807B1C-B58E-4710-A9B9-50F8668A2480}.Debug|x86.Build.0 = Debug|Win32
+		{69807B1C-B58E-4710-A9B9-50F8668A2480}.Release|x64.ActiveCfg = Release|x64
+		{69807B1C-B58E-4710-A9B9-50F8668A2480}.Release|x64.Build.0 = Release|x64
+		{69807B1C-B58E-4710-A9B9-50F8668A2480}.Release|x86.ActiveCfg = Release|Win32
+		{69807B1C-B58E-4710-A9B9-50F8668A2480}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
