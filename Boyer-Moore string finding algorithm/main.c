@@ -30,10 +30,13 @@ int main() {
 			printf("%ti\n", enteranceInd - haystack);
 		}
 		else printf("No enterance\n");
+
+		free(haystack);
+		free(needle);
 	}
 
 	// printf("\n%i\n", itsatesttime());
-	
+
 
 	return 0;
 }
