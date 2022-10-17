@@ -2,28 +2,40 @@
 #define RATIONAL_H
 
 
-struct Rational;
+struct Rational {
+	int numer;
+	int denom;
+};
+
 typedef struct Rational Rational;
 
 
 Rational* create(int numer, int denom);  // Allocates memory in the heap
 
-int compare(Rational* a, Rational* b);
 
-Rational* add(Rational* a, Rational* b);
+int set(Rational* num, int numer, int denom);
 
-Rational* sub(Rational* a, Rational* b);
+void reduct(Rational* num);
 
-Rational* mul(Rational* a, Rational* b);
 
-Rational* adiv(Rational* a, Rational* b);
+int compare(Rational a, Rational b);
 
-Rational* power(Rational* r, int power);
+int add(Rational* res, Rational a, Rational b);
+
+int sub(Rational* res, Rational a, Rational b);
+
+int mul(Rational* res, Rational a, Rational b);
+
+int division(Rational* res, Rational a, Rational b);
+
+int power(Rational* res, Rational r, int power);
+
  
-int RatToInt(Rational* r);  // Discards the fractional part
+int RatToInt(Rational r);  // Discards the fractional part
 
-float RatToFloat(Rational* r);
+float RatToFloat(Rational r);
 
-char* RatToStr(Rational* r);  // Allocates memory in the heap 
+int RatToStr(Rational r, char* str, size_t strSize);
+
 
 #endif
