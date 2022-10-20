@@ -2,12 +2,10 @@
 #define RATIONAL_H
 
 
-struct Rational {
+typedef struct Rational {
 	int numer;
 	int denom;
-};
-
-typedef struct Rational Rational;
+} Rational;
 
 
 Rational* create(int numer, int denom);  // Allocates memory in the heap
