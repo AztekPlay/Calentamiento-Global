@@ -1,3 +1,6 @@
+#ifndef _SLIST_H_
+#define _SLIST_H_
+
 
 struct SList;
 
@@ -38,5 +41,7 @@ void slForeach(SList* lst, void (*func)(void*));
 
 size_t slFindCustom(SList* lst, int (*predicate)(void*));
 
-
 void slFree(SList* lst);
+
+
+#endif
