@@ -16,17 +16,17 @@ void* slGet(SList* lst, int index);
 
 void* slGetLast(SList* lst);
 
-int slFind(SList* lst, void* data, int (*compare_func)(void*, void*));
+size_t slFind(SList* lst, void* data, int (*equalityFunc)(void*, void*));  // equalityFunc(data, lstData)
 
 
-int slLength(SList* lst);
+size_t slLength(SList* lst);
 
 
 SList* slRemove(SList* lst, int index);
 
-SList* slRemoveFirst(SList* lst, void* data);
+SList* slRemoveFirst(SList* lst, void* data, int (*equalityFunc)(void*, void*));  // equalityFunc(data, lstData)
 
-SList* slRemoveAll(SList* lst, void* data);
+SList* slRemoveAll(SList* lst, void* data, int (*equalityFunc)(void*, void*));  // equalityFunc(data, lstData)
 
 
 SList* slCopy(SList* lst);
@@ -34,9 +34,9 @@ SList* slCopy(SList* lst);
 SList* slConcat(SList* lst1, SList* lst2);
 
 
-SList* slForeach(SList* lst, void (*func)(void*));
+void slForeach(SList* lst, void (*func)(void*));
 
-SList sfFindCustom(SList* lst, int (*predicate)(void*));
+size_t slFindCustom(SList* lst, int (*predicate)(void*));
 
 
 void slFree(SList* lst);
