@@ -8,7 +8,7 @@
 //Main
 int main() {
 
-	srand((unsigned)time(NULL));
+	srand((unsigned) time(NULL));
 
 
 	int num1 = (rand()%1001) - 500;
