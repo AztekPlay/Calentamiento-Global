@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.3.32825.248
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31829.152
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lucky Tickets", "Lucky Tickets\Lucky Tickets.vcxproj", "{17E330BD-4FC1-4621-8AC8-AF80E91CD212}"
 EndProject
@@ -20,6 +20,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SList", "SList\SList.vcxproj", "{D7964EC8-C3D2-4A38-82DF-9EFDE88DF64D}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "List-based Stack", "List-based Stack\List-based Stack.vcxproj", "{B443CED6-EC5C-49C3-A6EE-88B3B32FB683}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Array-based Stack", "Array-based Stack\Array-based Stack.vcxproj", "{BCB05918-C6E3-427A-8B6A-8D05D4E5DC42}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -101,6 +103,14 @@ Global
 		{B443CED6-EC5C-49C3-A6EE-88B3B32FB683}.Release|x64.Build.0 = Release|x64
 		{B443CED6-EC5C-49C3-A6EE-88B3B32FB683}.Release|x86.ActiveCfg = Release|Win32
 		{B443CED6-EC5C-49C3-A6EE-88B3B32FB683}.Release|x86.Build.0 = Release|Win32
+		{BCB05918-C6E3-427A-8B6A-8D05D4E5DC42}.Debug|x64.ActiveCfg = Debug|x64
+		{BCB05918-C6E3-427A-8B6A-8D05D4E5DC42}.Debug|x64.Build.0 = Debug|x64
+		{BCB05918-C6E3-427A-8B6A-8D05D4E5DC42}.Debug|x86.ActiveCfg = Debug|Win32
+		{BCB05918-C6E3-427A-8B6A-8D05D4E5DC42}.Debug|x86.Build.0 = Debug|Win32
+		{BCB05918-C6E3-427A-8B6A-8D05D4E5DC42}.Release|x64.ActiveCfg = Release|x64
+		{BCB05918-C6E3-427A-8B6A-8D05D4E5DC42}.Release|x64.Build.0 = Release|x64
+		{BCB05918-C6E3-427A-8B6A-8D05D4E5DC42}.Release|x86.ActiveCfg = Release|Win32
+		{BCB05918-C6E3-427A-8B6A-8D05D4E5DC42}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
