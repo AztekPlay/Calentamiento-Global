@@ -8,9 +8,8 @@
 #include "PriorityQueue.h"
 
 
-int cmp(void* a, void* b) {
-	return (*((int*) a) > *((int*) b));
-}
-
 int main() {
+	TODOList();
+
+	return 0;
 }
