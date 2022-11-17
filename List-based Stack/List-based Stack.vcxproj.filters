@@ -15,19 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="LStack.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="SList.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
+    <ClInclude Include="Stack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="SList.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="LStack.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
+    <ClCompile Include="Stack.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
